@@ -26,4 +26,4 @@ if st.button("Calculate Scientific"):
       else:
                 result = math.log(value)
 
-    st.success(f"Result: {result}") if no error 
+    st.success(f"Result: {result}")
