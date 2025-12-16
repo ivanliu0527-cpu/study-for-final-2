@@ -30,10 +30,6 @@ if st.button("Calculate"):
         result = math.cos(math.radians(num1))
     elif operation == "Tan":
         result = math.tan(math.radians(num1))
-    elif operation == "Log"
-        try: 
-            result = math.log(num1,num2)
-        except error as e   
-            print("Cannot have log(0)")
+    
 
     st.success(f"Result: {result}")
