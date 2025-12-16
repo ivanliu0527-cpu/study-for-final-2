@@ -1,5 +1,5 @@
 import streamlit as st
-
+import math
 # Title
 st.title("Basic Web Calculator")
 
