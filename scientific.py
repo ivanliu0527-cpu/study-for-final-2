@@ -10,6 +10,7 @@ if st.button("Calculate Scientific"):
     if operation_sci == "Square Root":
       if value < 0:
                 st.error("Cannot calculate square root of a negative number!")
+                break
       else:
                 result = math.sqrt(value)
     elif operation_sci == "Power":
@@ -23,6 +24,7 @@ if st.button("Calculate Scientific"):
     elif operation_sci == "Log":
       if value <= 0:
                 st.error("Natural log is only defined for positive numbers!")
+                break
       else:
                 result = math.log(value)
 
