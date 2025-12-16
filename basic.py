@@ -30,6 +30,4 @@ if st.button("Calculate"):
         result = math.cos(math.radians(num1))
     elif operation == "Tan":
         result = math.tan(math.radians(num1))
-    
-
     st.success(f"Result: {result}")
